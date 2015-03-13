@@ -1,0 +1,70 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection (= 2.5.1)
+    - AFNetworking/NSURLSession (= 2.5.1)
+    - AFNetworking/Reachability (= 2.5.1)
+    - AFNetworking/Security (= 2.5.1)
+    - AFNetworking/Serialization (= 2.5.1)
+    - AFNetworking/UIKit (= 2.5.1)
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - EasyIOS (2.2.2):
+    - EasyIOS/Easy (= 2.2.2)
+  - EasyIOS/Easy (2.2.2):
+    - AFNetworking
+    - FLKAutoLayout (= 0.1.1)
+    - FontIcon
+    - GCDObjC
+    - MBProgressHUD
+    - MojoDatabase
+    - ReactiveCocoa (= 2.4.4)
+    - TMCache
+    - UIActivityIndicator-for-SDWebImage
+  - FLKAutoLayout (0.1.1)
+  - FontIcon (1.0)
+  - GCDObjC (0.2.0)
+  - MBProgressHUD (0.9)
+  - MojoDatabase (1.4)
+  - ReactiveCocoa (2.4.4):
+    - ReactiveCocoa/UI (= 2.4.4)
+  - ReactiveCocoa/Core (2.4.4):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.4)
+  - ReactiveCocoa/UI (2.4.4):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - TMCache (1.2.3)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+
+DEPENDENCIES:
+  - EasyIOS (~> 2.2.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  EasyIOS: 05e96f9f5d0079017a863f61a54980e1fc267049
+  FLKAutoLayout: 9fa39aac2903b274fbeed6be74154cdb937a04fc
+  FontIcon: 26bc94735ea33d51e412a3eeb20f306b2527ce17
+  GCDObjC: 4221bab8503688aaee67e5930b58fe8c0ed1f9a9
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  MojoDatabase: 0d2256d34b803169aa03e2ad4695a9a76441a5a9
+  ReactiveCocoa: 31119068e3dde866bd257cf74e1f06b4023bf387
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  TMCache: 11589ef8c40909114a5e60132711c9a559e01d97
+  UIActivityIndicator-for-SDWebImage: 8bd92c15280fbe54816448c6b14674145eee05c7
+
+COCOAPODS: 0.35.0
