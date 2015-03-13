@@ -3,6 +3,7 @@
 
 target 'AppB' do
 pod 'EasyIOS', '~> 2.2.2'
+#this is master branch!
 end
 
 target 'AppBTests' do
