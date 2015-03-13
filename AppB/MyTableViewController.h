@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyTableViewController : UIViewController
+@interface MyTableViewController : UIViewController  
 
 @property (weak, nonatomic) IBOutlet UITableView *myTableView;
 @end
